@@ -48,10 +48,7 @@ function CM_ShowClassMenu()
 	WeightFill:SetPos(SpaceOffset/2,SpaceOffset/2)
 	WeightFill:SetSize(LW-SpaceOffset,LH-SpaceOffset)
 	WeightFill.Paint = function(self,w,h)
-	
 		local WeightScale = TotalWeight / MaxWeight
-	
-	
 		draw.RoundedBoxEx( 4, 0, 0, w * WeightScale, h, Color( 255 * WeightScale, 255 - (255*WeightScale), 0, 150 ), true,true,true,true )
 	end
 	
@@ -106,7 +103,6 @@ function CM_ShowClassMenu()
 			ListItem.IsCurrentlySelected = false
 		end
 		
-		
 		ListItem.Paint = function(self,w,h)
 		
 			local RedMod = 255
@@ -119,15 +115,14 @@ function CM_ShowClassMenu()
 			elseif ( (v.Weight + TotalWeight) > MaxWeight) then
 				GreenMod = 0
 				BlueMod = 0
+			elseif CM_HasSlotSpace(v.Slot) then
+				GreenMod = 0
+				BlueMod = 0
 			end
 			
-			--print(TotalWeight,MaxWeight)
-			
-		
 			draw.RoundedBoxEx( 4, 0, 0, w, h, Color( RedMod, GreenMod, BlueMod, 150 ), true,true,true,true )
+			
 		end
-		
-		
 		
 		local SWEP = weapons.GetStored(k)
 		
@@ -142,7 +137,7 @@ function CM_ShowClassMenu()
 					table.RemoveByValue(CurrentLoadout,k)
 					ListItem.IsCurrentlySelected = false
 				else
-					if (v.Weight + TotalWeight) > MaxWeight then
+					if (v.Weight + TotalWeight) > MaxWeight or (CM_HasSlotSpace(v.Slot)) then
 						surface.PlaySound( "buttons/weapon_cant_buy.wav" )
 					else
 						table.Add(CurrentLoadout,{k})
@@ -192,6 +187,23 @@ function CM_ShowClassMenu()
 end
 
 concommand.Add( "cm_loadout", CM_ShowClassMenu)
+
+function CM_HasSlotSpace(slot)
+
+	local Weapons = string.Explode(" ",string.Trim(GetConVar("cm_editor_weapons"):GetString()))
+	
+	for k,v in pairs(Weapons) do
+		if not CMWD[v] then
+			
+		else
+			if CMWD[v].Slot == slot and slot ~= 0 then
+				return true
+			end
+		end
+	end
+
+
+end
 
 	
 function CM_RedrawWeight(WeightValue)

@@ -17,241 +17,201 @@ CMWD = {}
 
 CMWD["weapon_cs_ak47"] = { 
 	Weight = 8,
-	DTDam = 2,
-	SDam = 0,
+	Slot = 4,
 }
 
 CMWD["weapon_cs_aug"] =	{ 
 	Weight = 7,
-	DTDam = 2,
-	SDam = 0,
+	Slot = 4,
 }
 
 CMWD["weapon_cs_awp"] =	{ 
 	Weight = 9,
-	DTDam = 0,
-	SDam = 100,
+	Slot = 4,
 }
-
--- NOTE FOR AWP:
--- Bodyshot: Drains Shields
--- Headshots: Kills Instantly
 	
 CMWD["weapon_cs_deserteagle"] = { 
 	Weight = 3,
-	DTDam = 0,
-	SDam = 20,
+	Slot = 2,
 	}
 CMWD["weapon_cs_dualbertta"] = { 
 	Weight = 3,
-	DTDam = 2,
-	SDam = 0,
+	Slot = 2,
 	}
 CMWD["weapon_cs_famas"] = { 
 	Weight = 6,
-	DTDam = 1,
-	SDam = 10,
+	Slot = 4,
 	}
 CMWD["weapon_cs_fiveseven"] = { 
 	Weight = 2,
-	DTDam = 2,
-	SDam = 0,
+	Slot = 2,
 	}
 	
 CMWD["weapon_cs_g3"] = { 
 	Weight = 8,
-	DTDam = 5,
-	SDam = 0,
+	Slot = 4,
 	}
 	
 CMWD["weapon_cs_galil"] = { 
 	Weight = 6,
-	DTDam = 1,
-	SDam = 20,
+	Slot = 4,
 	}
 	
 CMWD["weapon_cs_glock"] = { 
 	Weight = 1,
-	DTDam = 1,
-	SDam = 10,
+	Slot = 2,
 	}
 	
 CMWD["weapon_cs_he"] = { 
 	Weight = 1,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 5,
 	}
 	
 CMWD["weapon_cs_knife"] = { 
 	Weight = 0,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 1,
 	}
 	
 CMWD["weapon_cs_m3"] = { 
 	Weight = 4,
-	DTDam = 0,
-	SDam = 10,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_m4"] = { 
 	Weight = 6,
-	DTDam = 1,
-	SDam = 10,
+	Slot = 4,
 	}
 
 CMWD["weapon_cs_mac10"] = { 
 	Weight = 4,
-	DTDam = 0,
-	SDam = 10,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_mp5"] = { 
 	Weight = 4,
-	DTDam = 0,
-	SDam = 10,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_p90"] = { 
 	Weight = 5,
-	DTDam = 2,
-	SDam = 0,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_p228"] = { 
 	Weight = 2,
-	DTDam = 0,
-	SDam = 20,
+	Slot = 2,
 	}
 
 CMWD["weapon_cs_para"] = { 
 	Weight = 9,
-	DTDam = 2,
-	SDam = 0,
+	Slot = 4,
 	}
 
 CMWD["weapon_cs_scout"] = { 
 	Weight = 5,
-	DTDam = 10,
-	SDam = 0,
+	Slot = 4,
 	}
 
 CMWD["weapon_cs_sig550"] = { 
 	Weight = 8,
-	DTDam = 5,
-	SDam = 0,
+	Slot = 4,
 	}
 
 CMWD["weapon_cs_sig552"] = { 
 	Weight = 7,
-	DTDam = 1,
-	SDam = 20,
+	Slot = 4,
 	}
 
 CMWD["weapon_cs_tmp"] =	{ 
 	Weight = 4,
-	DTDam = 1,
-	SDam = 20,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_ump"] =	{ 
 	Weight = 5,
-	DTDam = 3,
-	SDam = 10,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_usp"] =	{ 
 	Weight = 1,
-	DTDam = 1,
-	SDam = 10,
+	Slot = 2,
 	}
 	
 CMWD["weapon_cs_xm1014"] = { 
 	Weight = 5,
-	DTDam = 0,
-	SDam = 10,
-	}
-	
-	
-	
+	Slot = 3,
+}
+
 -- Extra Weapons
 
 CMWD["weapon_bur_medkit"] = { 
 	Weight = 2,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 0,
 	}
 
 CMWD["weapon_cs_357"] = { 
 	Weight = 4,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 2,
 	}
 	
 CMWD["weapon_cs_ar2"] = { 
 	Weight = 6,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 4,
 	}	
 	
 CMWD["weapon_cs_crossbow"] = { 
 	Weight = 8,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 4,
 	}	
 	
 CMWD["weapon_cs_crowbar"] = { 
 	Weight = 1,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 1,
 	}
 
 CMWD["weapon_cs_pistol"] = { 
 	Weight = 2,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 2,
 	}	
 
 CMWD["weapon_cs_rpg"] = { 
 	Weight = 10,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 5,
 	}
 	
 CMWD["weapon_cs_smg"] = { 
 	Weight = 4,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 3,
 	}
 	
 CMWD["weapon_cs_spas"] = { 
 	Weight = 5,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 3,
 	}	
 	
 CMWD["weapon_bur_pee"] = { 
 	Weight = 1,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 0,
 	}	
 	
 CMWD["weapon_bur_c4"] = { 
 	Weight = 3,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 0,
 }	
 
 CMWD["weapon_bur_gl"] = { 
 	Weight = 2,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 0,
+}
+
+CMWD["weapon_bur_tesla"] = { 
+	Weight = 3,
+	Slot = 0,
 }
 
 CMWD["weapon_bur_naughty"] = { 
 	Weight = 5,
-	DTDam = 0,
-	SDam = 0,
+	Slot = 0,
 }
 	
 --Tools

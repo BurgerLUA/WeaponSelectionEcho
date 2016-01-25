@@ -50,3 +50,13 @@ function CM_PlayerSpawn(ply)
 end
 
 hook.Add("PlayerSpawn","CM: PlayerSpawn",CM_PlayerSpawn)
+
+
+
+function CM_ShowSpare2(ply)
+
+	ply:ConCommand("cm_loadout")
+
+end
+
+hook.Add("ShowSpare2","CM: ShowSpare2 Override",CM_ShowSpare2)
