@@ -1,6 +1,6 @@
 
 local DefaultWeapons = "weapon_cs_m4 weapon_cs_usp weapon_cs_knife weapon_cs_he"
-local MaxWeight = 20
+local MaxWeight = 30
 
 CreateClientConVar("cm_editor_basestats","2",true,true)
 CreateClientConVar("cm_editor_weapons",DefaultWeapons,true,true)

@@ -14,7 +14,7 @@ function CM_PlayerSpawn(ply)
 				--print(v)
 
 				if CMWD[v] then
-					if TotalWeight + CMWD[v].Weight <= 20 then
+					if TotalWeight + CMWD[v].Weight <= 30 then
 						TotalWeight = TotalWeight + CMWD[v].Weight
 						
 						local Weapon = ply:Give(v)
