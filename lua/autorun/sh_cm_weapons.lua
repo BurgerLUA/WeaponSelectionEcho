@@ -213,6 +213,16 @@ CMWD["weapon_bur_naughty"] = {
 	Weight = 5,
 	Slot = 0,
 }
+
+CMWD["weapon_ex_combinesniper"] = { 
+	Weight = 10,
+	Slot = 4,
+}
+
+CMWD["weapon_ex_minigun"] = { 
+	Weight = 20,
+	Slot = 4,
+}
 	
 --Tools
 --[[
