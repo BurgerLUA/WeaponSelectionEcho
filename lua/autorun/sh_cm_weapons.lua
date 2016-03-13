@@ -16,7 +16,7 @@ CMWD = {}
 --]]
 
 CMWD["weapon_cs_ak47"] = { 
-	Weight = 8,
+	Weight = 7,
 	Slot = 4,
 }
 
@@ -35,7 +35,7 @@ CMWD["weapon_cs_deserteagle"] = {
 	Slot = 2,
 	}
 CMWD["weapon_cs_dualbertta"] = { 
-	Weight = 3,
+	Weight = 4,
 	Slot = 2,
 	}
 CMWD["weapon_cs_famas"] = { 
@@ -142,12 +142,7 @@ CMWD["weapon_cs_xm1014"] = {
 	Slot = 3,
 }
 
--- Extra Weapons
-
-CMWD["weapon_bur_medkit"] = { 
-	Weight = 2,
-	Slot = 0,
-	}
+-- HL2
 
 CMWD["weapon_cs_357"] = { 
 	Weight = 4,
@@ -155,7 +150,7 @@ CMWD["weapon_cs_357"] = {
 	}
 	
 CMWD["weapon_cs_ar2"] = { 
-	Weight = 6,
+	Weight = 7,
 	Slot = 4,
 	}	
 	
@@ -170,24 +165,31 @@ CMWD["weapon_cs_crowbar"] = {
 	}
 
 CMWD["weapon_cs_pistol"] = { 
-	Weight = 2,
+	Weight = 3,
 	Slot = 2,
 	}	
-
+	
+CMWD["weapon_cs_pistolx2"] = { 
+	Weight = 6,
+	Slot = 2,
+	}	
+	
 CMWD["weapon_cs_rpg"] = { 
 	Weight = 10,
 	Slot = 5,
 	}
 	
 CMWD["weapon_cs_smg"] = { 
-	Weight = 4,
+	Weight = 5,
 	Slot = 3,
 	}
 	
 CMWD["weapon_cs_spas"] = { 
-	Weight = 5,
+	Weight = 6,
 	Slot = 3,
 	}	
+	
+-- Burger
 	
 CMWD["weapon_bur_pee"] = { 
 	Weight = 1,
@@ -200,7 +202,7 @@ CMWD["weapon_bur_c4"] = {
 }	
 
 CMWD["weapon_bur_gl"] = { 
-	Weight = 2,
+	Weight = 4,
 	Slot = 0,
 }
 
@@ -214,8 +216,25 @@ CMWD["weapon_bur_naughty"] = {
 	Slot = 0,
 }
 
+CMWD["weapon_bur_medkit"] = { 
+	Weight = 1,
+	Slot = 0,
+}
+
+-- Extras
+
 CMWD["weapon_ex_combinesniper"] = { 
-	Weight = 10,
+	Weight = 9,
+	Slot = 4,
+}
+
+CMWD["weapon_ex_double"] = { 
+	Weight = 9,
+	Slot = 4,
+}
+
+CMWD["weapon_ex_laser"] = { 
+	Weight = 8,
 	Slot = 4,
 }
 
@@ -223,25 +242,36 @@ CMWD["weapon_ex_minigun"] = {
 	Weight = 20,
 	Slot = 4,
 }
-	
---Tools
---[[
-CMWD["weapon_physgun"] = { 
-	Weight = 0,
-	DTDam = 0,
-	SDam = 0,
+
+CMWD["weapon_ex_nes"] = { 
+	Weight = 5,
+	Slot = 2,
 }
 
-CMWD["weapon_physcannon"] = { 
-	Weight = 0,
-	DTDam = 0,
-	SDam = 0,
+CMWD["weapon_ex_rebelsniper"] = { 
+	Weight = 10,
+	Slot = 4,
 }
 
-CMWD["gmod_tool"] = { 
-	Weight = 0,
-	DTDam = 0,
-	SDam = 0,
+--SMOD
+
+CMWD["weapon_smod_ak47"] = { 
+	Weight = 8,
+	Slot = 4,
 }
---]]
+
+CMWD["weapon_smod_greasegun"] = { 
+	Weight = 6,
+	Slot = 3,
+}
+
+CMWD["weapon_smod_kar98"] = { 
+	Weight = 7,
+	Slot = 4,
+}
+
+CMWD["weapon_smod_svd"] = { 
+	Weight = 10,
+	Slot = 4,
+}
 	
